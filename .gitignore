@@ -1,0 +1,17 @@
+# Ignore all node_modules in every subfolder
+node_modules/
+
+# Ignore all .env files (anywhere)
+*.env
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore logs
+*.log
+npm-debug.log*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
